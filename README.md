@@ -11,6 +11,25 @@ Fuzzing things with [afl](http://lcamtuf.coredump.cx/afl/) and [python-afl](http
     - https://bitbucket.org/jwilk/python-afl/overview
     - `hg clone ...` and `pip install -e python-afl/`
 
+## Approach
+
+Usage of afl on it's own ([docs](https://github.com/mcarpenter/afl/blob/master/docs/README#L177)):
+
+- `afl-fuzz -i testcase_dir -o findings_dir /path/to/program [...params...]`
+
+But with python-afl, usage is ([docs](https://bitbucket.org/jwilk/python-afl/overview#rst-header-howto)):
+
+- Add this code (ideally, after all other modules are already imported) to
+  the target program::
+
+    import afl
+    afl.start()
+
+- Use *py-afl-fuzz* instead of *afl-fuzz*::
+
+      $ py-afl-fuzz [options] -- /path/to/fuzzed/python/script [...]
+
+
 ## Fuzzing Python's JSON library
 
 assuming a layout:
