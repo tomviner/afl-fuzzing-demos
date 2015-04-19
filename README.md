@@ -51,6 +51,8 @@ assuming a layout:
 - cd `afl-fuzzing-demos`
 - `../python-afl/py-afl-fuzz -i json/afl_testcases/ -o json/afl_findings/ -- python json/demo.py`
 
+I'm using some very basic testcases to get the fuzzer started, e.g. `{"a":true}` & `{"1":2}`, this should start it off with basic json syntax and it'll mutate from there.
+
 **Note**: afl makes constant reads & writes to the file system, so if you're running on an SSD it's a good idea to replace the output directory with an in-memory RAM disk folder. E.g. on debian based systems, the shared memory directory `/run/shm/`. But obviously remember, the results won't survive a reboot, so copying the results out like this might be best:
 
 
