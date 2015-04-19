@@ -10,6 +10,7 @@
     - follow instructions in [docs/INSTALL](https://github.com/mcarpenter/afl/blob/master/docs/INSTALL)
 - python-afl
     - https://bitbucket.org/jwilk/python-afl/overview
+    - pip install cython
     - `hg clone ...` and `pip install -e python-afl/`
 
 ## Approach
