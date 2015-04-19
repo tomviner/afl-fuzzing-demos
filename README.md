@@ -1,5 +1,5 @@
 # afl fuzzing demos
-Fuzzing things with [afl](http://lcamtuf.coredump.cx/afl/) and [python-afl](https://bitbucket.org/jwilk/python-afl/overview)
+[afl](http://lcamtuf.coredump.cx/afl/) or *american fuzzy lop* has been getting a lot of buzz recently. So let's have a go at fuzzing things with afl and [python-afl](https://bitbucket.org/jwilk/python-afl/overview)
 
 ## Installing Fuzzing Tools
 
