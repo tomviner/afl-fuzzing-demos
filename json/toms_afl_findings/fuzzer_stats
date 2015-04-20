@@ -1,0 +1,20 @@
+start_time     : 1429483872
+last_update    : 1429516522
+fuzzer_pid     : 363
+cycles_done    : 121
+execs_done     : 7285081
+execs_per_sec  : 0.01
+paths_total    : 8
+paths_found    : 5
+paths_imported : 0
+max_depth      : 3
+cur_path       : 2
+pending_favs   : 0
+pending_total  : 0
+variable_paths : 0
+bitmap_cvg     : 0.10%
+unique_crashes : 0
+unique_hangs   : 9
+afl_banner     : python
+afl_version    : 1.59b
+command_line   : afl-fuzz -i json/afl_testcases/ -o /run/shm/json/afl_findings -- python json/demo.py
