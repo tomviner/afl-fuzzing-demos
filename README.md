@@ -66,3 +66,6 @@ I'm using some very basic testcases to get the fuzzer started, e.g. `{"a":true}`
 
 When you're finished, Ctrl-C and see what you come up with in `json/afl_findings`.
 You'll start to see output after a few seconds, but it's usual to leave a fuzzer running for a few days or more.
+
+### Console after all night fuzzing
+![image](https://cloud.githubusercontent.com/assets/167319/7226227/b61d1e66-e73e-11e4-8b86-4a00e94e5b89.png)
