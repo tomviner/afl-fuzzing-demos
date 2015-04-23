@@ -1,0 +1,15 @@
+_put 3 4
+viewkeys
+co_put 3 4
+viewkeys
+copy  4
+get jyy4
+get'4
+viewkeys
+copy  4
+get  .py  4
+get jyy4
+get'4
+viewkeys
+copy  4
+get  .

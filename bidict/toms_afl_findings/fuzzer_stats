@@ -1,0 +1,20 @@
+start_time     : 1429742609
+last_update    : 1429775704
+fuzzer_pid     : 11643
+cycles_done    : 2
+execs_done     : 8565835
+execs_per_sec  : 0.06
+paths_total    : 349
+paths_found    : 348
+paths_imported : 0
+max_depth      : 15
+cur_path       : 231
+pending_favs   : 0
+pending_total  : 229
+variable_paths : 0
+bitmap_cvg     : 0.52%
+unique_crashes : 50
+unique_hangs   : 61
+afl_banner     : python
+afl_version    : 1.59b
+command_line   : afl-fuzz -i bidict/afl_testcases/ -o /run/shm/bidict/afl_findings -x bidict/afl_dict/ -- python bidict/fuzz_script.py

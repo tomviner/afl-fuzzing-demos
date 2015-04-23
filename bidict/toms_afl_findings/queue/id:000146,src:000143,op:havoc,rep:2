@@ -1,0 +1,8 @@
+setdt 3,dé
+pop 3,3, 4
+ 4
+u< 4dé
+pop 3,3, 4
+ 4
+u< 4
+update

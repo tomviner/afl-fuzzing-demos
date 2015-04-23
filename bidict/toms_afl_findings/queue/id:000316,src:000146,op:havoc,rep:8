@@ -1,0 +1,37 @@
+setdt 3,dé
+pop 3,3, 4
+ 4
+u< .dé
+pop 3,3, 4
+tdt 3,dé
+pop 3,3, 4
+ 4
+u< 4dépop 3,3, 4
+ 4
+ 4
+u<,dé
+pop 3,3, 4
+ 4
+u< 4dé
+pop 3,3, 4
+td4
+u< 4dé
+pop 3,3, 4
+ 4
+ 4
+u<,dé
+pop 3,3, 4
+ 4
+u< 4dé
+pop 3,3, 4
+tdt 3,dé
+pop 3,3, 4
+ 4
+u< 4dé
+p 4
+upTat 3,dé
+pop 3,3, 4
+ 4
+u< 4dé
+p 4
+upTate

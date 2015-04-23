@@ -1,0 +1,5 @@
+@etdefault 3t 3; 4
+ge fault 3ÿ 4
+ge -3; 4
+ge fault 3ÿ 4
+ge -3

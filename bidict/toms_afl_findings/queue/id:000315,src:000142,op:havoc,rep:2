@@ -1,0 +1,23 @@
+setdt 3,dt 3, Q
+get 3, 4J, 4
+ge set3, Q
+get 3, 4J, 4
+ge setd
+get 3,3, 4
+ 4
+u< 4d
+get 3,3, 4
+ 4
+u< 4
+upda Q
+get 3, 4J, 4
+ge set3, Q
+get 3, 4J, 4
+ge setd
+get 3,3, 4
+ 4
+u< 4d
+get 3,3, 4
+ 4
+u< 4
+update

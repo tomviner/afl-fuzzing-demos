@@ -1,0 +1,8 @@
+setdefault 3, 4
+put 3, 44
+put 3, 4
+ge 3,  
+u',#te 3, 
+ge 3,  
+u',#te 3, 4
+update

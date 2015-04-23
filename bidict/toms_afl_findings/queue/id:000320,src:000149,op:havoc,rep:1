@@ -1,0 +1,13 @@
+)t 3, Q
+__invert__
+ge setd
+p  4
+, Q
+__invert__
+gse)t 3, Q
+__invert__
+ge setd
+p  4
+, Q
+__invert__
+ge __u<ge

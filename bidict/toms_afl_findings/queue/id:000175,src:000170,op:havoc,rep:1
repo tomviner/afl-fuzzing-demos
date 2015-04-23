@@ -1,0 +1,7 @@
+_put 3, 4
+get yy 4
+_put 3, 44
+_put 3, 4
+g 4
+get jyy 4
+get .

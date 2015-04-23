@@ -1,0 +1,8 @@
+setdefault 3, 4
+put 3, 4
+ge_fw3, 4
+put 3, 4
+ge_fwd4
+upd4
+update 3, 4
+update

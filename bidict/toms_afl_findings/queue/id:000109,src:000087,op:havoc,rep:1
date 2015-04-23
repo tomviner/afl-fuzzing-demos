@@ -1,0 +1,8 @@
+setdefault 3, 4
+ult 3lt 3, 4
+ult 3, 4
+ge 3, 4
+u, 4
+ge 3, 4
+update 3, 4
+update

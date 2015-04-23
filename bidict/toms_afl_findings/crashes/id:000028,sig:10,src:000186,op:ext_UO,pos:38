@@ -1,0 +1,11 @@
+_put 3, 4
+get yy4
+copy  yy4
+copy  4
+_fwd_slice 4
+get 4
+ge4
+get yy4
+copy  4
+get jyy 4
+get t jy

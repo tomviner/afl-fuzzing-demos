@@ -1,0 +1,23 @@
+setdt 3,dé
+pop 3,3, 4
+ 4
+~setdé
+pop 3,3, 4
+ 4
+u< 4
+u3,4
+ 4
+g, 4
+, 4
+ge setdé
+p 4
+, 4
+ge é
+pop 3,3, 4
+ 4
+3, 4
+, 4
+ge é
+pop 3,3, 4
+ 4
+atm

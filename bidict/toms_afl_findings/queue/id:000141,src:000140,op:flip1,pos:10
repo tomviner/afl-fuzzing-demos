@@ -1,0 +1,7 @@
+setdt 3, QŠget 3, 4
+, 4
+ge setd
+get 3,3, 4
+ 4
+u< 4
+update

@@ -1,0 +1,5 @@
+setdefault 3,14
+put 3, 4
+ge 2,&4
+pdate 3, 4
+update

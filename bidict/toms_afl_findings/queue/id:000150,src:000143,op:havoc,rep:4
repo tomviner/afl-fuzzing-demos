@@ -1,0 +1,18 @@
+setd Q
+get 3, 4
+et 3, 4
+, 4
+ge set 3, Q
+get 3, 4
+et 3, 4
+, 4
+ge setd
+ 4
+, 4
+, 4
+et 3, 4
+, 4
+ge setd
+ 4
+u< 4
+update

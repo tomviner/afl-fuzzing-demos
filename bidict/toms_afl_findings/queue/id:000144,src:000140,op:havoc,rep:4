@@ -1,0 +1,14 @@
+setdt 3, Q
+gge setd
+get 3,3, 4
+ 4
+ 4
+
+get 3,3, 4
+ 4
+u<
+ge setd
+get 3,3, 4
+ 4
+ 4
+update

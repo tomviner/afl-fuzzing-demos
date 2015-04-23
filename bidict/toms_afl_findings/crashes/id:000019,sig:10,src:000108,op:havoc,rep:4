@@ -1,0 +1,4 @@
+setdefault 8, 4
+put 3, 44
+put 3, 4
+ge pdate

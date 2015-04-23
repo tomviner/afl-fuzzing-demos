@@ -1,0 +1,14 @@
+setdefa 3, 4
+ult 3, (
+ge 3, 4
+ulW t3 4
+ge 3, 4
+ult 3, (
+ge 3, t3 4
+ge 3, 4
+upsvg3ge e 4
+upsvg3, 4
+ 4fault3 4
+ge 3, 4
+upsvg e 3,3ge e 3,
+upda ÿÿÿ€ 3,te

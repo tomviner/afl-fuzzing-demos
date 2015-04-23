@@ -1,0 +1,5 @@
+setdefault 3, 4
+pop 33, 4
+put 3, 4
+gete 3, 4
+update

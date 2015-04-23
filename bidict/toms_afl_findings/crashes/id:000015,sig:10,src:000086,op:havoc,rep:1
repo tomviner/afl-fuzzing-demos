@@ -1,0 +1,5 @@
+setdefault 3, 4
+popitem
+default 3, 4
+popitem
+update
