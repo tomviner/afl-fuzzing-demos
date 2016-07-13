@@ -1,5 +1,5 @@
 # afl fuzzing demos
-[afl](http://lcamtuf.coredump.cx/afl/) or *american fuzzy lop* has been getting a lot of buzz recently. So let's have a go at fuzzing things with afl and [python-afl](https://bitbucket.org/jwilk/python-afl/overview)
+[afl](http://lcamtuf.coredump.cx/afl/) or *american fuzzy lop* has been getting a lot of buzz recently. So let's have a go at fuzzing things with afl and [python-afl](http://jwilk.net/software/python-afl)
 
 ## Installing Fuzzing Tools
 
@@ -9,9 +9,8 @@
     - [Download](http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz) and unpack
     - follow instructions in [docs/INSTALL](https://github.com/mcarpenter/afl/blob/master/docs/INSTALL)
 - python-afl
-    - https://bitbucket.org/jwilk/python-afl/overview
     - pip install cython
-    - `hg clone ...` and `pip install -e python-afl/`
+    - pip install python-afl
 
 ## Approach
 
@@ -21,7 +20,7 @@ Usage of afl (without python-afl) ([docs](https://github.com/mcarpenter/afl/blob
 
 **Note**: upon first run, you may be advised to take certain actions to ensure afl's performance is reasonable
 
-Usage of python-afl ([docs](https://bitbucket.org/jwilk/python-afl/overview#rst-header-howto)):
+Usage of python-afl ([docs](https://github.com/jwilk/python-afl/blob/master/doc/README.rst#readme)):
 
 - Add this code (ideally, after all other modules are already imported) to
   the target program:
