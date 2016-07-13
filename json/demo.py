@@ -10,7 +10,7 @@ def main():
         json.loads(s)
     except ValueError as e:
         # we expect malformed input to cause ValueErrors
-        # any other expection or crash is interesting
+        # any other exception or crash is interesting
         print repr(e)
 
 

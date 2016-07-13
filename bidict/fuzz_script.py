@@ -18,7 +18,7 @@ def main():
         cmd, _, arg_str = line.partition(' ')
         if arg_str:
             try:
-                # need to convert the remaining inoput string into a Python
+                # need to convert the remaining input string into a Python
                 # object but we can't let a fuzzer loose on the built-in eval
                 # as it could find a way to destroy the host OS.
                 # so use literal_eval which will only resolve built-in data
