@@ -20,7 +20,7 @@ Usage of afl (without python-afl) ([docs](https://github.com/mcarpenter/afl/blob
 
 **Note**: upon first run, you may be advised to take certain actions to ensure afl's performance is reasonable
 
-Usage of python-afl ([docs](https://bitbucket.org/jwilk/python-afl/overview#rst-header-howto)):
+Usage of python-afl ([docs](https://github.com/jwilk/python-afl/blob/master/doc/README.rst#readme)):
 
 - Add this code (ideally, after all other modules are already imported) to
   the target program:
